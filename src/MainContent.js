@@ -2,7 +2,7 @@ import React from 'react';
 import Todo from './Todo';
 function MainContent() {
     return (
-        <div>
+        <div className="todoList">
             <Todo/>
             <Todo/>
             <Todo/>
