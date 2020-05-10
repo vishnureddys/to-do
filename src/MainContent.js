@@ -1,19 +1,11 @@
 import React from 'react';
-
+import Todo from './Todo';
 function MainContent() {
     return (
         <div>
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-            
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-            
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-            
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            <Todo/>
+            <Todo/>
+            <Todo/>
         </div>
     )
 }
